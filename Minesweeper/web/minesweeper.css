@@ -1,0 +1,49 @@
+* {box-sizing: border-box;}
+
+html {height: 100vh;}
+
+body {background-color: #666666;
+    font-family: Verdana, Arial, sans-serif;}
+
+header {background-color: #333333; color: #ffffff;}
+
+h1 {padding: 5vh 0vh 4vh 2vh;}
+
+main {min-height: 73vh;
+    padding-bottom: 5%; overflow: auto;
+    text-align: center;}
+
+table {margin-left: auto; margin-right: auto; margin-top: 1%;}
+td {height: 32px; width: 32px;}
+
+#tip {width: 30%;
+    margin-left: 35%; margin-right: 35%;
+    text-align: center;}
+ul {display: inline-block; text-align: left;}
+
+.lost {width: 10em; display: inline-block;
+    font-size: 1.5em; color: #aa0000; background-color: #cccccc; text-align: center;
+    padding: 0.25% 0% 0.25% 0%;}
+.won {width: 10em; display: inline-block;
+    font-size: 1.5em; color: #00aa00; background-color: #cccccc; text-align: center;
+    padding: 0.25% 0% 0.25% 0%;}
+
+footer {background-color: #ffffff;
+    height: 7vh;
+    position: relative; padding: 1vh;
+    text-align: center;}
+
+#TH {height: 32px; width: 32px; background-image: url(graphics/tile_hidden.png);}
+#TB {height: 32px; width: 32px; background-image: url(graphics/tile_hidden.png);}
+#TF {height: 32px; width: 32px; background-image: url(graphics/tile_flagged.png);}
+#TC {height: 32px; width: 32px; background-image: url(graphics/tile_flagged.png);}
+#TM {height: 32px; width: 32px; background-image: url(graphics/tile_mine.png);}
+#T0 {height: 32px; width: 32px; background-image: url(graphics/tile_0.png);}
+#T1 {height: 32px; width: 32px; background-image: url(graphics/tile_1.png);}
+#T2 {height: 32px; width: 32px; background-image: url(graphics/tile_2.png);}
+#T3 {height: 32px; width: 32px; background-image: url(graphics/tile_3.png);}
+#T4 {height: 32px; width: 32px; background-image: url(graphics/tile_4.png);}
+#T5 {height: 32px; width: 32px; background-image: url(graphics/tile_5.png);}
+#T6 {height: 32px; width: 32px; background-image: url(graphics/tile_6.png);}
+#T7 {height: 32px; width: 32px; background-image: url(graphics/tile_7.png);}
+#T8 {height: 32px; width: 32px; background-image: url(graphics/tile_8.png);}
